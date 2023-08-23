@@ -2,7 +2,6 @@ import React from "react";
 import "flowbite";
 import Image from "next/image";
 import Logo from "../public/media/logo.png";
-import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Web3Button } from "@thirdweb-dev/react";
 import Link from "next/link";
 import { ConnectWallet } from "@thirdweb-dev/react";
