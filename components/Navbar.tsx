@@ -1,5 +1,4 @@
 import React from "react";
-import "flowbite";
 import Image from "next/image";
 import Logo from "../public/media/logo.png";
 import { Web3Button } from "@thirdweb-dev/react";
