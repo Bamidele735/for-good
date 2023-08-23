@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           chain: "AlveyChain", // Name of the network
           name: "  AlveyChain", // Name of the network
         }}
-        clientId={"316ac75a2ee3b40ab6438468663b00b7"}
+        clientId={"b4bb3bbb64fb1ca7ecb6311dab128c76"}
       >
           <Head>
             <title>Title</title>
