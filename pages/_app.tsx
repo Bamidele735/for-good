@@ -2,16 +2,19 @@ import { useEffect } from "react";
 import "../styles/globals.css";
 
 import "tailwindcss/tailwind.css";
-import "../styles/globals.css";
+
+import "../styles/home.css";
+import "../styles/stake.css";
 import type { AppProps } from "next/app";
 
 import { DefaultSeo } from "next-seo";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 import { ChakraProvider } from "@chakra-ui/react";
 
 import { ThirdwebProvider, ThirdwebSDKProvider } from "@thirdweb-dev/react";
 
-import "../styles/globals.css";
+
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -61,9 +64,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       >
        
           <Head>
-            <title>Title</title>
-            <link rel="icon" href="/favicon/favicon.ico" />
-
+          <meta
+              name="description"
+              content="Welcome to Angle Warriors, your go-to source for all things Nft Staking."
+            />
+            <link rel="shortcut icon" href="https://ivory-retail-narwhal-261.mypinata.cloud/ipfs/QmPyxSy6vvYqxpepLewJDr4JaSgo6bgdtLA2N1XTmUNsLT?_gl=1*1ukf6z9*_ga*MTg3MjUyNjQ1LjE2NzA1MzMwOTY.*_ga_5RMPXG14TE*MTY5MjE1OTkxNS4xNC4xLjE2OTIxNjA3OTAuNjAuMC4w" />
+            <title> Angle Warriors Staking Dapp</title>
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="theme-color" content="#000000" />
           </Head>
@@ -89,7 +95,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               },
             ]}
           />
-      
+       <Navbar />
             <Component {...pageProps} />
    
       

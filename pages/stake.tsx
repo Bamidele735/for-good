@@ -197,7 +197,7 @@ const Stake: NextPage = () => {
                 <p>No Nfts to Stake</p>
                 <button className="mining_btn">
                   <a
-                    href="https://worrior.vercel.app/"
+                    href="https://www.angelwarriors.xyz/"
                     rel="noreferrer"
                     target="_blank"
                   >
